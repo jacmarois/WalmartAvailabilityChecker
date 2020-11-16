@@ -2,7 +2,7 @@
 A friend was sick of going to the walmart.com page to see if the PS5 was in stock, so I made this to run instead.
 
 ## How to use
-This script is command line only, and made to run specifically on **Windows**. When you run the script, it will show a menu.
+This script is command line only, and made to run specifically on **Windows**. The included prod_list.json is just an example, you can delete it if you like (the script will create a new blank prod_list.json when needed). When you run the script, it will show a menu with five options that I will explain in detail.
 
 ### Option 1
 Option 1 will check for a file in the same directory as the script called prod_list.json. If this file doesn't already exist, it will be created, if it does, it will be read to get a list of URLs for walmart.com product pages and will check the availability of those products.
